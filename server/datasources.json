@@ -1,0 +1,12 @@
+{
+  "db": {
+    "host": "ds051883.mongolab.com",
+    "port": 51883,
+    "url": "ds051883.mongolab.com:51883/dom",
+    "database": "dom",
+    "password": "p0o9i8u7y6t",
+    "name": "db",
+    "connector": "mongodb",
+    "user": "tacshooter"
+  }
+}

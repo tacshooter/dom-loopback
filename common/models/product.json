@@ -1,0 +1,32 @@
+{
+  "name": "product",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ProductId": {
+      "type": "number",
+      "id": true,
+      "required": true,
+      "index": true
+    },
+    "ProductName": {
+      "type": "string",
+      "required": true
+    },
+    "StartDate": {
+      "type": "date",
+      "required": true
+    },
+    "EndDate": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

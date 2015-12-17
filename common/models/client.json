@@ -1,0 +1,35 @@
+{
+  "name": "client",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ClientId": {
+      "type": "number",
+      "id": true,
+      "required": true,
+      "index": true
+    },
+    "ExternalId": {
+      "type": "string",
+      "required": true,
+      "comments": "ID from external CRM system"
+    },
+    "StartDate": {
+      "type": "date"
+    },
+    "EndDate": {
+      "type": "date"
+    },
+    "propertyName98": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
