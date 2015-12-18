@@ -33,25 +33,25 @@
     "public": false
   },
   "product": {
-    "dataSource": "db",
+    "dataSource": null,
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "placement": {
-    "dataSource": "db",
+    "dataSource": null,
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "placementsize": {
-    "dataSource": "db",
+    "dataSource": null,
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "client": {
-    "dataSource": "db",
+    "dataSource": null,
     "public": true
   }
 }
